@@ -1,3 +1,4 @@
+from __future__ import unicode_literals
 import twitter
 import time
 from mcpi import minecraft
@@ -20,7 +21,9 @@ while True:
     if twitter_statuses:
         if most_recent_status_id:
             for twitter_status in twitter_statuses:
-                mc.postToChat('{}-{}'.format(twitter_status.user.screen_name, twitter_status.text))
+                formatted_status = '{}-{}'.format(twitter_status.user.screen_name, 
+                    twitter_status.text)
+                mc.postToChat(formatted_status.encode('utf-8'))
         most_recent_status_id = twitter_statuses[0].id
         print '-' * 10
     time.sleep(60)
