@@ -25,5 +25,4 @@ while True:
                     twitter_status.text)
                 mc.postToChat(formatted_status.encode('utf-8'))
         most_recent_status_id = twitter_statuses[0].id
-        print '-' * 10
     time.sleep(60)
