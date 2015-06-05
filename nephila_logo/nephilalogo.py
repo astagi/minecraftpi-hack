@@ -17,4 +17,4 @@ for i in range(im.size[0]):
         else:
             type = block.GLASS
         mc.setBlock(player_pos.x + 2 , player_pos.y - j, player_pos.z + i, type)        
-        print pixel
+        print (pixel)
