@@ -1,0 +1,1 @@
+Nephila's logo: get Nephila's logo from a png and show it in Minecraft
