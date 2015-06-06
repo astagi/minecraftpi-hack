@@ -9,12 +9,15 @@ def get_angle(pos_player, max_alt=180):
     return int(angle)
 
 connection = SerialManager(
-    device='/dev/ttyACM0'
+    device='/dev/ttyACM0',
+    rtscts=True
 )
-servo = Servo(7, connection=connection)
+servo = Servo(
+    7,
+    connection=connection
+)
 
 while True:
     pos_player = mc.player.getPos()
     angle = get_angle(pos_player)
     servo.write(angle)
-
