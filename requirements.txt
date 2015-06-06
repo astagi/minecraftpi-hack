@@ -1,8 +1,0 @@
-oauthlib==0.6.3
-python-twitter==2.0
-requests==2.4.3
-requests-oauthlib==0.4.2
-simplejson==3.6.5
-wsgiref==0.1.2
-nanpy==0.9.4
-Pillow==2.8.1
