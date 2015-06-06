@@ -1,7 +1,6 @@
-minecraftpi-hack
-================
+#Minecraftpi hacks
 
-Repo containing my hacking stuff on Minecraft Pi
+Repo containing my hacking stuff on Minecraft Pi edition
 
 - Nephila's logo: get Nephila's logo from a png and show it in Minecraft
 - Tnt: destroy your auto generated world with tons of TNT
